@@ -45,7 +45,7 @@ defmodule Openai.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:json, "~> 1.4"},
+      {:json, "~> 0.3.0"},
       {:httpoison, "~> 1.8"},
       {:mock, "~> 0.3.6"},
       {:mix_test_watch, "~> 1.0"},
